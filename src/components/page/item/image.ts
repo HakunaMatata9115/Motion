@@ -19,4 +19,3 @@ export class ImageComponent extends BaseComponent<HTMLElement> {
     titleElement.textContent = title;
   }
 }
-``;

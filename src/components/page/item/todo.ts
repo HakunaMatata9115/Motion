@@ -9,12 +9,12 @@ export class TodoComponent extends BaseComponent<HTMLElement> {
 
     const titleElement = this.element.querySelector(
       ".todo__title"
-    ) as HTMLHeadElement;
+    )! as HTMLHeadElement;
     titleElement.textContent = title;
 
     const todoElement = this.element.querySelector(
       ".todo-checkbox"
-    ) as HTMLInputElement;
+    )! as HTMLInputElement;
     todoElement.insertAdjacentText("afterend", todo);
   }
 }

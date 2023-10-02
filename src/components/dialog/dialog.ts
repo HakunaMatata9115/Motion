@@ -32,10 +32,10 @@ export class InputDialog
     };
   }
 
-  setOnCloseListener(listener: OnCloseListener) {
+  setOnCloseListenr(listener: OnCloseListener) {
     this.closeListener = listener;
   }
-  setOnSubmitListener(listener: OnSubmitListener) {
+  setOnSubmitListenr(listener: OnSubmitListener) {
     this.submitListener = listener;
   }
   addChild(child: Component) {
